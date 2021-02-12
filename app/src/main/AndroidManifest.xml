@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foroom">
-        <activity android:name=".view.messages_activity"></activity>
-        <activity android:name=".view.topics_activity"></activity>
-        <activity android:name=".view.categories_activity">
+        <activity android:name=".Activity_Topics"></activity>
+        <activity android:name=".Activity_Categories">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

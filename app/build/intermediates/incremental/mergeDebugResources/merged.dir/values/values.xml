@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <string-array name="topics">
-        <item>Les sujets les plus chauds</item>
+        <item>Les sujets les plus chauds du jour</item>
         <item>La ps5 est sortie</item>
         <item>Apple saute par la fenêtre</item>
         <item>La refonte du parrain cartonne</item>
@@ -267,7 +267,6 @@
         <flag name="dependency_ordering" value="512"/>
         <flag name="grouping" value="1024"/>
     </attr>
-    <attr format="reference" name="linkBuilderStyle"/>
     <attr format="reference" name="materialButtonOutlinedStyle"/>
     <attr format="reference" name="materialButtonStyle"/>
     <attr format="reference" name="materialButtonToggleGroupStyle"/>
@@ -392,6 +391,7 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="backGround">#DCE6E8</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -501,7 +501,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -998,10 +998,6 @@
     <string name="item_view_role_description">Tab</string>
     <string description="Content description for the thumb with the maximum value in a Range slider. [CHAR_LIMIT=NONE]" name="material_slider_range_end">Range end, </string>
     <string description="Content description for the thumb with the minimum value in a Range slider. [CHAR_LIMIT=NONE]" name="material_slider_range_start">Range start, </string>
-    <string name="messages">Johnny Vaca: je suis d\'accord\n\n
-        Altin Zili: Moi pas, sonic c\'est mieux\n\n
-    Carrel Xavier: je ne sais pas trop sur le sujet,\n
-        pourriez-vous m\'informer un peu plus</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string description="Content description for a close icon that lets the user remove content from the screen" name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string description="Plural form content description for when the number of new notifications exceeds a maximum count[CHAR_LIMIT=NONE]" name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">More than <ns1:g example="999" id="maximum number">%1$d</ns1:g> new notifications</string>
@@ -6281,10 +6277,6 @@
         <attr name="android:layout_height"/>
         <attr name="android:layout_weight"/>
         <attr name="android:layout_gravity"/>
-    </declare-styleable>
-    <declare-styleable name="LinkBuilder">
-        <attr format="color" name="defaultLinkColor"/>
-        <attr format="color" name="defaultTextColorOfHighlightedLink"/>
     </declare-styleable>
     <declare-styleable name="ListPopupWindow">
         <!-- Amount of pixels by which the drop down should be offset vertically. -->
