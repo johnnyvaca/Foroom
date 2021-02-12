@@ -295,8 +295,10 @@ attr daySelectedStyle
 attr dayStyle
 attr dayTodayStyle
 attr defaultDuration
+attr defaultLinkColor
 attr defaultQueryHint
 attr defaultState
+attr defaultTextColorOfHighlightedLink
 attr deltaPolarAngle
 attr deltaPolarRadius
 attr deriveConstraintsFrom
@@ -541,6 +543,7 @@ attr liftOnScrollTargetViewId
 attr limitBoundsTo
 attr lineHeight
 attr lineSpacing
+attr linkBuilderStyle
 attr listChoiceBackgroundIndicator
 attr listChoiceIndicatorMultipleAnimated
 attr listChoiceIndicatorSingleAnimated
@@ -919,7 +922,6 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
-color backGround
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1530,6 +1532,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1579,6 +1582,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable reply
+drawable reply_small
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1666,13 +1671,10 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
-id bestTopics
 id blocking
 id bottom
 id bounce
-id buttonMessages
 id buttonPanel
-id buttonTopics
 id cache_measures
 id cancel_button
 id categoryTitle
@@ -1726,7 +1728,6 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
-id drawerlayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -1775,14 +1776,17 @@ id jumpToStart
 id labeled
 id largeLabel
 id layout
+id layoutMessages
 id left
 id line1
 id line3
 id linear
 id listMode
 id list_item
+id lista
 id masked
 id message
+id messagesTitle
 id middle
 id mini
 id month_grid
@@ -1814,6 +1818,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nameOfTopic
 id navigation_header_container
 id never
 id noScroll
@@ -1826,6 +1831,7 @@ id off
 id on
 id outline
 id packed
+id pageNumber
 id parallax
 id parent
 id parentPanel
@@ -1844,13 +1850,14 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id replyButton
+id replyMessage
 id reverseSawtooth
 id right
 id right_icon
 id right_side
 id rounded
 id row_index_key
-id rvCategoriesList
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -1885,6 +1892,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sp_option
 id spacer
 id spline
 id split_action_bar
@@ -1920,6 +1928,8 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textJeuxVideo
+id textMessages
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1939,7 +1949,19 @@ id title_template
 id toggle
 id top
 id topPanel
-id topicsTitle
+id topic1
+id topic10
+id topic11
+id topic12
+id topic13
+id topic2
+id topic3
+id topic4
+id topic5
+id topic6
+id topic7
+id topic8
+id topic9
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2021,8 +2043,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity__topics
 layout activity_main
+layout activity_messages_activity
+layout activity_topics_activity
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2093,6 +2116,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap logo1
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2138,6 +2162,7 @@ string icon_content_description
 string item_view_role_description
 string material_slider_range_end
 string material_slider_range_start
+string messages
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2934,6 +2959,7 @@ styleable KeyTrigger framePosition motionTarget motion_postLayoutCollision motio
 styleable Layout android_orientation android_layout_width android_layout_height android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_layout_marginStart android_layout_marginEnd barrierAllowsGoneWidgets barrierDirection barrierMargin chainUseRtl constraint_referenced_ids constraint_referenced_tags layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop maxHeight maxWidth minHeight minWidth
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
+styleable LinkBuilder defaultLinkColor defaultTextColorOfHighlightedLink
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
