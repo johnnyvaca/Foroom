@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Foroom.iml" filepath="$PROJECT_DIR$/.idea/Foroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Foroom.iml" filepath="$PROJECT_DIR$/.idea/modules/Foroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Foroom.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Foroom.app.iml" />
     </modules>
   </component>

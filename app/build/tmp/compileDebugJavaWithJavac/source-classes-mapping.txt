@@ -1,0 +1,2 @@
+com/example/foroom/BuildConfig.java
+ com.example.foroom.BuildConfig
