@@ -27,5 +27,10 @@ public class Activity_Categories extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        DataProvider instance = DataProvider.getInstance();
+
+
+        Categories category = instance.getObjectCategories(this);
     }
 }
