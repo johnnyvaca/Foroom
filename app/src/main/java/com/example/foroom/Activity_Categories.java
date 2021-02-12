@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Activity_Categories extends AppCompatActivity {
+import org.json.JSONException;
 
+
+public class Activity_Categories extends AppCompatActivity {
 
 
     @Override
@@ -16,8 +18,7 @@ public class Activity_Categories extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
 
-        Intent intent = new Intent(this,Activity_Topics.class);
-
+        Intent intent = new Intent(this, Activity_Topics.class);
 
 
         Button button = findViewById(R.id.buttonTopics);
@@ -28,9 +29,16 @@ public class Activity_Categories extends AppCompatActivity {
             }
         });
 
-        DataProvider instance = DataProvider.getInstance();
+        Category cat = new Category();
+
+        try {
+            Category category = cat.getCategory(this);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
 
-        Categories category = instance.getObjectCategories(this);
     }
+
+
 }

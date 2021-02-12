@@ -29,6 +29,7 @@ public class DataProvider {
     public Categories getObjectCategories(Context context) {
 
 
+
         String json = getJsonFromAssets(context, "categories.json");
         Gson gson = new Gson();
 
@@ -38,7 +39,7 @@ public class DataProvider {
     }
 
 
-    private String getJsonFromAssets(Context context, String fileName) {
+    public String getJsonFromAssets(Context context, String fileName) {
 
         String json;
         try {
