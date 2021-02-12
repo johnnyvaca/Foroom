@@ -8,8 +8,8 @@ com/example/foroom/BuildConfig.java
  com.example.foroom.BuildConfig
 com/example/foroom/DataProvider.java
  com.example.foroom.DataProvider
+com/example/foroom/Category.java
+ com.example.foroom.Category
 com/example/foroom/Activity_Categories.java
  com.example.foroom.Activity_Categories
  com.example.foroom.Activity_Categories$1
-com/example/foroom/Category.java
- com.example.foroom.Category

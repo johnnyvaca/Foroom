@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 import org.json.JSONException;
+import org.w3c.dom.ls.LSException;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
 
 
 public class Activity_Categories extends AppCompatActivity {
@@ -29,10 +34,11 @@ public class Activity_Categories extends AppCompatActivity {
             }
         });
 
-        Category cat = new Category();
+        DataProvider dataProvider = DataProvider.getInstance();
 
+        List<Category> categories;
         try {
-            Category category = cat.getCategory(this);
+         categories = dataProvider.getCategories(this);
         } catch (JSONException e) {
             e.printStackTrace();
         }

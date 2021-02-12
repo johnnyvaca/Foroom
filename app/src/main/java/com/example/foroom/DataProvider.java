@@ -1,11 +1,14 @@
 package com.example.foroom;
 
 import android.content.Context;
-
-import com.google.gson.Gson;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DataProvider {
     private String json;
@@ -26,16 +29,23 @@ public class DataProvider {
         return single_instance;
     }
 
-    public Categories getObjectCategories(Context context) {
+
+    public List<Category> getCategories(Context context) throws JSONException {
+        DataProvider dataProvider = DataProvider.getInstance();
+        String json = dataProvider.getJsonFromAssets(context, "categories.json");
+        List<Category> categories = new ArrayList<Category>();
 
 
+        JSONObject jsonObject = new JSONObject(json);
+        JSONArray data = jsonObject.getJSONArray("data");
+        for (int i = 0; i < data.length(); i++) {
+            JSONObject oneRaw = data.getJSONObject(i);
+            Integer id = oneRaw.getInt("id");
+            String name = oneRaw.getString("name");
 
-        String json = getJsonFromAssets(context, "categories.json");
-        Gson gson = new Gson();
-
-        Categories object = gson.fromJson(json, Categories.class);
-
-        return object;
+            categories.add(new Category(id,name));
+        }
+        return categories;
     }
 
 

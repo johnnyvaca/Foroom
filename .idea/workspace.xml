@@ -33,7 +33,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Activity_Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Activity_Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Categories.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/DataProvider.java" afterDir="false" />
     </list>
@@ -169,6 +169,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1613135460434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613135460434" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1613124150250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,40 +185,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612904871793" />
-    <state width="1876" height="360" key="GridCell.Tab.0.bottom" timestamp="1613132617190">
+    <state width="1876" height="191" key="GridCell.Tab.0.bottom" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613132617190" />
-    <state width="1876" height="360" key="GridCell.Tab.0.center" timestamp="1613132617190">
+    <state width="1876" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.0.center" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613132617190" />
-    <state width="1876" height="360" key="GridCell.Tab.0.left" timestamp="1613132617189">
+    <state width="1876" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.0.left" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613132617189" />
-    <state width="1876" height="360" key="GridCell.Tab.0.right" timestamp="1613132617190">
+    <state width="1876" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.0.right" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613132617190" />
-    <state width="1876" height="360" key="GridCell.Tab.1.bottom" timestamp="1613132619306">
+    <state width="1876" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.1.bottom" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613132619306" />
-    <state width="1876" height="360" key="GridCell.Tab.1.center" timestamp="1613132619306">
+    <state width="1876" height="191" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.1.center" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613132619306" />
-    <state width="1876" height="360" key="GridCell.Tab.1.left" timestamp="1613132619306">
+    <state width="1876" height="191" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.1.left" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613132619306" />
-    <state width="1876" height="360" key="GridCell.Tab.1.right" timestamp="1613132619306">
+    <state width="1876" height="191" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
+    <state width="1876" height="191" key="GridCell.Tab.1.right" timestamp="1613136437603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="360" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613132619306" />
+    <state width="1876" height="191" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613136437603" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/foroom/Activity_Categories.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/foroom/Activity_Categories.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo typeName="com.example.foroom.Category" fieldName="name" />

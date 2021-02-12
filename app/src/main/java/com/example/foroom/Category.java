@@ -23,6 +23,10 @@ public class Category {
 
     }
 
+    public Category(Integer id, String name) {
+        setId(id);
+        setName(name);
+    }
 
     public String getName() {
         return this.name;
@@ -40,29 +44,7 @@ public class Category {
         this.name = name;
     }
 
-    public Category getCategory(Context context) throws JSONException {
-        DataProvider dataProvider = DataProvider.getInstance();
-        String json = dataProvider.getJsonFromAssets(context, "categories.json");
-        Category category = new Category();
-        List<Category> list = new ArrayList<Category>();
 
-
-        JSONObject vide = new JSONObject(json);
-        JSONArray data = vide.getJSONArray("data");
-        for (int i = 0; i < data.length(); i++) {
-            JSONObject oneRaw = data.getJSONObject(i);
-            Integer id = oneRaw.getInt("id");
-            String name = oneRaw.getString("name");
-            category.setId(id);
-            category.setName(name);
-            list.add(category);
-        }
-
-
-
-
-        return category;
-    }
 
 
 
