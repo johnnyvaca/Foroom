@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Foroom</string>
+    <string-array name="topics">
+        <item>Les sujets les plus chauds du jour</item>
+        <item>La ps5 est sortie</item>
+        <item>Apple saute par la fenêtre</item>
+        <item>La refonte du parrain cartonne</item>
+        <item>la VR est révolutionnaire</item>
+    </string-array>
 </resources>
