@@ -1,12 +1,7 @@
 <resources>
     <string name="app_name">Foroom</string>
-    <string name="messages">Johnny Vaca: je suis d\'accord\n\n
-        Altin Zili: Moi pas, sonic c\'est mieux\n\n
-    Carrel Xavier: je ne sais pas trop sur le sujet,\n
-        pourriez-vous m\'informer un peu plus</string>
-
     <string-array name="topics">
-        <item>Les sujets les plus chauds</item>
+        <item>Les sujets les plus chauds du jour</item>
         <item>La ps5 est sortie</item>
         <item>Apple saute par la fenêtre</item>
         <item>La refonte du parrain cartonne</item>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,7 +15,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b998bdaa-7b8a-473e-b291-aa22af3e1b07" name="Default Changelist" comment="" />
+    <list default="true" id="b998bdaa-7b8a-473e-b291-aa22af3e1b07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Activity_Topics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity__topics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/foroom/Activity_Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,25 +39,34 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/app/src/main/java/com/example/foroom/presenter/presenter_Class.kt" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectId" id="1lqUR9QVxEYFLKA6UcBJTTh4Ab4" />
+  <component name="ProjectId" id="1oC7WKVolnOcmAh0MBsq3vzlB99" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-29T11:31:25.751Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/Foroom" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1164538047">
+      <recent name="com.example.foroom" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -113,58 +139,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91c81e82-abf2-4492-8cb8-a3c636f00423" name="Default Changelist" comment="" />
-      <created>1608324103671</created>
+      <changelist id="b998bdaa-7b8a-473e-b291-aa22af3e1b07" name="Default Changelist" comment="" />
+      <created>1612778748551</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608324103671</updated>
+      <updated>1612778748551</updated>
     </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="19" key="#Inspections" timestamp="1608325275129">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="268" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1608325275129" />
-    <state x="434" y="11" width="813" height="657" key="#Kotlin" timestamp="1608325300653">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="434" y="11" width="813" height="657" key="#Kotlin/0.0.1280.680@0.0.1280.680" timestamp="1608325300653" />
-    <state x="94" y="94" width="1092" height="492" key="AVDManager" timestamp="1609241957004">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="94" y="94" width="1092" height="492" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1609241957004" />
-    <state x="357" y="150" key="FileChooserDialogImpl" timestamp="1613113008587">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612904871793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="238" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609243543108" />
-    <state x="357" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613113008587" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1613122010063">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612904871793" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1612883397639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="611" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609246249006" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613122010063" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1613122010063">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612883397639" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1612883397639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="611" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609246249006" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613122010063" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1613122010063">
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612883397639" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1612883397639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="611" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609246249005" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613122010063" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1613122010063">
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612883397639" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1612883397639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="611" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609246249006" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613122010063" />
-    <state x="364" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608325257914">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="364" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1608325257914" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612883397639" />
   </component>
 </project>

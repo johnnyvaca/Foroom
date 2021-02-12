@@ -21,7 +21,6 @@ public class Activity_Categories extends AppCompatActivity {
 
 
 
-
         Button button = findViewById(R.id.buttonTopics);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
